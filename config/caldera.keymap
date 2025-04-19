@@ -64,7 +64,7 @@ GAAAAMIN {
    &kp LCTRL  &none     &kp LALT  &kp LGUI  &none      &kp LALT   &kp LSHFT      &kp SPACE   &mo 1   &none      &tog 4    &mo 3     
                         >;
                 };
-        BLUETOOTH SETTINGS {
+        BLUETOOTH_SETTINGS {
 // ------------------------------------------------------------------------------------------------------------
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 1|
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 2|
