@@ -64,14 +64,14 @@ GAAAAMIN {
    &kp LCTRL  &none     &kp LALT  &kp LGUI  &none      &kp LALT   &kp LSHFT      &kp SPACE   &mo 1   &none      &tog 4    &mo 3     
                         >;
                 };
-BLUETOOTH SETTINGS {
+        BLUETOOTH SETTINGS {
 // ------------------------------------------------------------------------------------------------------------
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 1|
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 2|
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 3|
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 4|
 // |       |       |       |       |       |       |          |       |       |       |       |       |BT sel 5|
-                        bindings = <
+                bindings = <
    &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &bt BT_SEL 1
    &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &bt BT_SEL 2
    &trans    &trans         &trans         &trans         &trans         &trans                 &trans    &trans    &trans   &trans   &trans  &bt BT_SEL 3
