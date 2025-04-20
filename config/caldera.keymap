@@ -18,7 +18,7 @@
         keymap {
                 compatible = "zmk,keymap";
 
-                default_layer {
+default_layer {
 // ---------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  | BKSP |
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U  |  I  |  O  |  P  |  \   |
@@ -59,9 +59,9 @@ GAAAAMIN {
                         bindings = <
    &kp ESC    &none     &kp N1    &kp N2    &kp N3     &kp N4     &kp N5          &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    
    &kp TAB    &none     &kp Q     &kp W     &kp E      &kp R      &kp T           &kp Y      &kp U   &kp I      &kp O     &kp P     
-   &kp CAPS   &none     &kp A     &kp S     &kp D      &kp F      &kp G           &kp H      &kp J   &kp K      &kp L     &kp SEMI  
+   &kp CAPS   &kp LSHFT     &kp A     &kp S     &kp D      &kp F      &kp G           &kp H      &kp J   &kp K      &kp L     &kp SEMI  
    &kp LSHFT  &kp LCTRL &kp Z     &kp X     &kp C      &kp V      &kp B           &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  
-   &kp LCTRL  &none     &kp LALT  &kp LGUI  &none      &kp LALT   &kp LSHFT      &kp SPACE   &mo 1   &none      &tog 4    &tog 2     
+   &kp LCTRL  &none     &kp LALT  &kp LGUI  &none      &kp SPACE   &kp LSHFT      &kp SPACE   &mo 1   &none      &tog 4    &tog 2     
                         >;
                 };
         BLUETOOTH_SETTINGS {
